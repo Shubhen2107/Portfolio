@@ -50,8 +50,8 @@ body {
     background: linear-gradient(180deg, #becfd8 0%, #f7fafc 100%);
       font-family: Arial, Helvetica, sans-serif;
     line-height: 1.7;
-   
-   
+    
+    
 }
 
 .about {
@@ -159,6 +159,22 @@ u {
     color: rgb(13, 13, 175);
     font-size:1.25rem;
     text-align: left;
+}
+
+/* Portfolio Link Styling */
+.portfolio-link {
+    color: rgb(13, 13, 175);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.portfolio-link:hover {
+    color: #fff;
+    background-color: rgb(13, 13, 175);
+    padding: 2px 6px;
 }
 
 .projects p{
