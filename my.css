@@ -168,7 +168,7 @@ u {
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 2px 4px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .portfolio-link:hover {
@@ -187,9 +187,10 @@ u {
 footer{
     text-align:center;
     margin:20px;
+    letter-spacing:1px;
 }
 
 h2 {
     color: rgb(1, 80, 176);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
