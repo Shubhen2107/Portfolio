@@ -1,72 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SS portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shubhendra Shukla — Portfolio</title>
+  <meta name="description" content="Portfolio of Shubhendra Shukla — student building projects with C, C++, HTML and CSS.">
+  <link rel="stylesheet" href="my.css">
 </head>
-
 <body>
-    <div class="name">
-        <img src="Pasted image.png" alt="name" align="right">
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-        <h1>
-            <p style="color:rgb(0, 0, 2)">Hi,I'am</p> Shubhendra Shukla
-        </h1>
-        <p>An 8th class student from Lucknow who enjoys learning programming</p>
-        <p> languages and making websites and simple games.</p>
-        <b>Lucknow , Uttar Pradesh</b>
+  <header class="site-header">
+    <div class="container header-row">
+      <figure class="profile-photo" aria-hidden="false">
+        <!-- Rename the image file to avoid spaces, e.g. profile.jpg -->
+        <img src="profile.jpg" alt="Shubhendra Shukla — portrait" class="profile-image">
+      </figure>
+      <div class="intro">
+        <h1>Hi — I'm <span class="name-strong">Shubhendra Shukla</span></h1>
+        <p class="tagline">An 8th grade student from Lucknow building projects with C, C++, HTML, and CSS.</p>
+        <p>I enjoy creating websites and simple games.</p>
+        <p><strong>Lucknow, Uttar Pradesh</strong></p>
+      </div>
     </div>
-    <div class="class">
-        <div class="about">
-            <h1>About Me</h1>
-            <p>I am constantly learning new computer languages and building projects using C, C++, HTML,
-                and CSS.
-            </p>
-            <p>My goal is to keep improving by creating websites and simple C programs.</p>
-        </div>
-        
-        <div class="edu">
-            <h2><b style="color: rgb(0, 0, 8);">Education</b></h2>
-            <p>Red Rose Senior Secondary School</p>
-            <p>8 th class passout</p>
-        </div>
-    </div>
-    <div class="skills">
-        <h1>Skills</h1>
-        <b>C</b>
-        <b>C++</b>
-        <b>Html</b>
-        <b>CSS</b>
-    </div>
-    <div class="pro">
-        <h1>Projects</h1>
-        <header>
-            03
-            <h2>Calculator</h2>
-            <p>A C program that performs addition, subtraction, multiplication, and division.</p>
-        </header>
-        <header>
+  </header>
 
-            02
-            <h2> Random Number Guessing Game </h2>
-            <p>A C program that generates a random number and asks the user to guess it.</p>
-        </header>
-        <header>
-            01
-            <h2>Portfolio</h2>
-            <p> personal portfolio page built using HTML and CSS to showcase skills and projects.</p>
-            <b>
-    <a href="https://shubhendrashukla2407-alt.github.io/Portfolio/my_portfolio.html" target="_blank" class="portfolio-link">Portfolio</a>
-</b>
-        </header>
+  <main id="main-content" class="container">
+    <section class="about card">
+      <h2>About me</h2>
+      <p>I am constantly learning new programming languages and building projects using C, C++, HTML, and CSS. My goal is to keep improving by creating websites and simple C programs.</p>
+    </section>
 
+    <section class="edu card">
+      <h2>Education</h2>
+      <p>Red Rose Senior Secondary School — 8th class</p>
+    </section>
+
+    <section class="skills card">
+      <h2>Skills</h2>
+      <ul class="skill-list" aria-label="Skills">
+        <li class="skill-pill">C</li>
+        <li class="skill-pill">C++</li>
+        <li class="skill-pill">HTML</li>
+        <li class="skill-pill">CSS</li>
+      </ul>
+    </section>
+
+    <section class="projects card">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Random Number Guessing Game</h3>
+        <p>A C program that generates a random number and asks the user to guess it.</p>
+      </article>
+
+      <article class="project">
+        <h3>Calculator</h3>
+        <p>A C program that performs addition, subtraction, multiplication, and division.</p>
+      </article>
+
+      <p>
+        <a href="https://shubhendrashukla2407-alt.github.io/Portfolio/my_portfolio.html" target="_blank" rel="noopener noreferrer" class="portfolio-link">Open live portfolio</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Thanks for visiting my portfolio</p>
+      <p><a href="mailto:shubhendrashukla2407@gmail.com">shubhendrashukla2407@gmail.com</a></p>
     </div>
-<footer>
-    <p>Thanks for visiting my portfolio</p>
-    <b>shubhendrashukla2407@gmail.com</b>
-</footer>
+  </footer>
 </body>
 </html>
