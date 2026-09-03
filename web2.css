@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f5f5;
+    margin: 0 auto;
+}
+
+.home {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.home button {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    margin-left: 1100px;
+}
+
+button {
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #764ba2;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button:hover {
+    background: rgb(252, 253, 253);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(5, 5, 5, 0.4);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.into {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    text-align: center;
+    padding: 80px 50px;
+    color: white;
+    font-size: 1.25rem;
+    height: 400px;
+}
+
+.into h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.into p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.features {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f6f5f5;
+    padding-bottom: 30px;
+    height: 500px;
+}
+
+.features h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.features h2 {
+    color: #8057aa;
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+
+.features p {
+    color: rgb(104, 103, 103);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.features b {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.d {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hdiv {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(104, 103, 103);
+    box-shadow: 0 5px 15px rgba(47, 1, 252, 0.1);
+    border-left: 5px solid rgb(200, 200, 200);
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.hdiv:hover {
+    background: #f5f5f5;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(5, 5, 5, 0.2);
+    border-left-color: #667eea;
+}
+
+.co {
+
+    background-color: rgb(252, 250, 250);
+    color: rgb(1, 1, 1);
+    padding: 30px;
+}
+
+.red {
+    background-color: #f5f5f5;
+    height: 250px;
+    width: 350px;
+    padding: 20px;
+    text-align: start;
+    font-size: 1.2rem;
+    border-left: 3px solid #667eea;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.red p {
+    text-align: left;
+    padding: 20px;
+}
+
+.blue {
+    display: flex;
+    max-width: max-content;
+    margin-left: 435px;
+    margin-right: 435px;
+}
+
+.price p {
+    line-break: loose;
+    line-height: 60px;
+}
+
+.a1 {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 30px;
+      box-shadow: 10px 10px 10px #7c8ffd;
+}
+
+.a1:hover {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    transform: scale(1.05);
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.a2 {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    transform: scale(1.05);
+    border-radius: 30px;
+    margin: 30px;
+    border: 1px solid #667eea;
+      box-shadow: 5px 5px 5px 5px #7f91f7;
+}
+
+.a2:hover {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    transform: scale(1.15);
+    border-radius: 30px;
+    margin: 30px;
+
+}
+
+.a2 button {
+    background-color: #764ba2;
+    color: white;
+
+}
+
+
+
+.price {
+    background-color: #e5eaee;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.price button {
+    background-color: #764ba2;
+    color: white;
+}
+
+.p {
+    background-color: #e5eaee;
+    padding: 30px;
+}
+.touch {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fdfdfe;
+    color: white;
+}
+
+.touch form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.touch input,
+.touch textarea {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.touch button {
+    align-self: center;
+}
+.c{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.s strong{
+    background-color: #667eea;
+    color: white;
+   text-align:left;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 1.5;
+}
